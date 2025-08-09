@@ -5,57 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maryam Fatima - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <img src="profile.jpg" alt="Profile Photo" class="profile-img">
-        <h1>Maryam Fatima</h1>
-        <p>Beginner Digital Marketer & Content Creator</p>
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+            <h1>Maryam Fatima</h1>
+            <p class="role">Beginner Digital Marketer & Content Creator</p>
+        </div>
     </header>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="fade-in">
         <h2>About Me</h2>
         <p>I am an enthusiastic learner in the field of digital marketing, exploring skills like SEO, thumbnail and logo design, content writing, and video editing. My goal is to continuously improve and apply these skills to create impactful and creative digital content.</p>
     </section>
 
     <!-- Skills -->
-    <section id="skills">
+    <section id="skills" class="fade-in">
         <h2>Skills</h2>
-        <ul>
-            <li>SEO</li>
-            <li>Content Writing</li>
-            <li>Basic Video Editing</li>
-            <li>Thumbnail & Logo Design</li>
-        </ul>
+        <div class="skills-grid">
+            <span>SEO</span>
+            <span>Content Writing</span>
+            <span>Basic Video Editing</span>
+            <span>Thumbnail & Logo Design</span>
+        </div>
     </section>
 
     <!-- Projects -->
-    <section id="projects">
+    <section id="projects" class="fade-in">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>[Project Name Here]</h3>
-            <p>[Description of your project]</p>
-            <img src="sample.jpg" alt="Sample Work">
-        </div>
-        <div class="project">
-            <h3>[Project Name Here]</h3>
-            <p>[Description of your project]</p>
-            <img src="sample.jpg" alt="Sample Work">
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="sample.jpg" alt="Sample Project">
+                <h3>[Project Name]</h3>
+                <p>[Brief description of your work]</p>
+            </div>
+            <div class="project-card">
+                <img src="sample.jpg" alt="Sample Project">
+                <h3>[Project Name]</h3>
+                <p>[Brief description of your work]</p>
+            </div>
         </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="fade-in">
         <h2>Contact</h2>
-        <p>Email: yourname@email.com</p>
+        <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
         <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
         <p>Instagram: <a href="#">instagram.com/yourusername</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Maryam Fatima</p>
+        <p>&copy; 2025 Maryam Fatima | Built with ❤️</p>
     </footer>
 </body>
 </html>
